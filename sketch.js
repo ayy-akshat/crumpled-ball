@@ -76,7 +76,7 @@ function draw() {
   leftBorder.display();
   paper.updateSprite();
 
-  drawSprites();
+  
 
   textAlign(CENTER);
   textSize(30);
@@ -96,4 +96,5 @@ function draw() {
   rect(width/2, 0, 1, height*2);
   imageMode(CENTER);
   image(dustbinImage, 1200, 543.5, 240, 260);
+  drawSprites();
 }
